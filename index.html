@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmFlix - Movies Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="navbar">
+        <h1>FilmFlix</h1>
+    </nav>
+    <button id="themeToggle">🌙</button>
+
+    <!-- search section -->
+    <div class="search-section">
+        <input type="text" id="searchBox" placeholder="Seach for Movies...">
+        <select id="genreFilter">
+        <option value="all">All Genres</option>
+        <option value="28">Action</option>
+        <option value="80">Crime</option>
+        <option value="18">Drama</option>
+        <option value="27">Horror</option>
+        <option value="10749">Romance</option>
+        <option value="35">Comedy</option>
+        </select>
+    </div>
+
+    <!-- movie grid -->
+    <div class="container"></div>
+
+    <div class="pagination">
+        <button id="prevPage">Prev</button>
+        <span id="currentPage">1</span>
+        <button id="nextPage">Next</button>
+    </div>
+
+    <button id="scrollTopBtn">⬆️</button>
+
+    <div id="movieModal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal">&times;</span>
+    <h2 id="modalTitle"></h2>
+    <p id="modalOverview"></p>
+    <div class="modal-meta">
+        <p><strong>Release:</strong> <span id="modalRelease"></span></p>
+        <p><strong>Runtime:</strong> <span id="modalRuntime"></span> min</p>
+        <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+    </div>
+  </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
