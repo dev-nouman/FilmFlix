@@ -24,3 +24,9 @@
 - **CSS3** – Flexbox/Grid, responsive design, and styling  
 - **JavaScript (ES6+)** – API calls, DOM manipulation, and interactivity  
 - **Public Movie API** – Dynamic movie & TV show data  
+
+
+---
+
+## License
+Free to Use and Copy.
