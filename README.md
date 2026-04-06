@@ -29,4 +29,4 @@
 ---
 
 ## License
-Free to Use and Copy.
+Free to Use and Copy
